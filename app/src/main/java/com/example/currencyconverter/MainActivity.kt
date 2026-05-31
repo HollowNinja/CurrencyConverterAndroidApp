@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         etCurrency1Amount.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 Log.i(TAG, "afterTextChanged $s")
-                computeConvserion()
+                computeConversion()
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun computeConvserion() {
+    private fun computeConversion() {
         if (etCurrency1Amount.text.isEmpty()) {
             tvCurrency2Result.text = ""
             return
