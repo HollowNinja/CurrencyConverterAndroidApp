@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CurrencyConverter</string>
+    <string name="currency1_label">Yen ¥</string>
+    <string name="currency1_hint">Yen amount</string>
+    <string name="currency2_label">USD $</string>
+    <string name="currency2_hint">Converted amount</string>
 </resources>
