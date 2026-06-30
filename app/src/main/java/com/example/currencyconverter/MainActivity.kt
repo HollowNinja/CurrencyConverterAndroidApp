@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
             tvCurrency2Result.text = ""
             return
         }
-        val currency1Amount = etCurrency1Amount.text.toString().toDouble()
+        val currency1Amount = etCurrency1Amount.text.toString().toDoubleOrNull() ?: return
         val result = currency1Amount / YEN2USD
         tvCurrency2Result.text = "%.2f".format(result)
     }
