@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:hint="Coverted amount"
+        android:hint="Converted amount"
         android:textColor="#000000"
         android:textColorHint="#1A1A1A"
         android:textSize="32sp"
